@@ -107,18 +107,13 @@ class ClientRestController {
 	            return new ResponseEntity<Client>(HttpStatus.NOT_FOUND);
 	        }
 	
-	        if(client.getUser()!=null)
-		
-	        {
-	        	//userRepository2= this.userRepository1.findByClientUsername(client.getUsername());
-		
-	        }
+	       
 	
 			
 		
 		 
 	 
-	        clientRepository1.delete(client);
+	       clientRepository1.delete(client);
 	        return new ResponseEntity<Client>(HttpStatus.NO_CONTENT);
 	    }
 	

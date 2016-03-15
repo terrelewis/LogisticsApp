@@ -43,6 +43,7 @@ public class LogisticsAppApplication{
 							userRepository.save(new User("A", "AL","A","776023152","ALS",client));
 							userRepository.save(new User("B", "BL","B","776023151","BLS",client));
 						});
+		
 	}
 
 	
